@@ -16,6 +16,11 @@ depend on the number of vertices, the number of edges, or both?
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. Add your answer to this markdown file.
 
+#### Answer
+
+$O(V^2)$ <br/> <br/>
+This is the answer because we have two for loops, one nested in the other. The outer for loop iterates over the number of vertices. The inner for loop is looking for where an edge exists, to do this it iterates over all the vertices, checking all edges between each vertice. So, we get $O(V*V)$ or $O(V^2)$ <br/>
+
 ## Bonus
 
 Implement a function to convert an adjacency list to an adjacency matrix and
