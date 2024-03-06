@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/hFs1pb0z)
 # Graph Representations
 
 Implement a function that converts an adjacency matrix to an adjacency list for
@@ -14,6 +15,11 @@ depend on the number of vertices, the number of edges, or both?
 
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. Add your answer to this markdown file.
+
+#### Answer
+
+$O(V^2)$ <br/> <br/>
+This is the answer because we have two for loops, one nested in the other. The outer for loop iterates over the number of vertices. The inner for loop is looking for where an edge exists, to do this it iterates over all the vertices, checking all edges between each vertice. So, we get $O(V*V)$ or $O(V^2)$ <br/>
 
 ## Bonus
 
